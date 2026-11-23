@@ -1,0 +1,546 @@
+{
+  "format_version": 1,
+  "shift_plan": [
+    {
+      "id": "plan-0-square-guide",
+      "date": "2026-08-01",
+      "site": "square",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 2
+    },
+    {
+      "id": "plan-0-workshop-guide",
+      "date": "2026-08-01",
+      "site": "workshop",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-0-workshop-return",
+      "date": "2026-08-01",
+      "site": "workshop",
+      "role": "return",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-1-square-guide",
+      "date": "2026-08-02",
+      "site": "square",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 2
+    },
+    {
+      "id": "plan-1-workshop-guide",
+      "date": "2026-08-02",
+      "site": "workshop",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-1-workshop-return",
+      "date": "2026-08-02",
+      "site": "workshop",
+      "role": "return",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-2-square-guide",
+      "date": "2026-08-03",
+      "site": "square",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 2
+    },
+    {
+      "id": "plan-2-workshop-guide",
+      "date": "2026-08-03",
+      "site": "workshop",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-2-workshop-return",
+      "date": "2026-08-03",
+      "site": "workshop",
+      "role": "return",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-3-square-guide",
+      "date": "2026-08-04",
+      "site": "square",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 2
+    },
+    {
+      "id": "plan-3-workshop-guide",
+      "date": "2026-08-04",
+      "site": "workshop",
+      "role": "guide",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    },
+    {
+      "id": "plan-3-workshop-return",
+      "date": "2026-08-04",
+      "site": "workshop",
+      "role": "return",
+      "start": "14:00",
+      "end": "16:00",
+      "required": 1
+    }
+  ],
+  "activity": [
+    {
+      "id": "activity-0-0",
+      "date": "2026-08-01",
+      "person": "p-a",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-0",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-0-1",
+      "date": "2026-08-01",
+      "person": "p-b",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-0-2",
+      "date": "2026-08-01",
+      "person": "p-c",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-0-3",
+      "date": "2026-08-01",
+      "person": "p-a",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-0",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-0-4",
+      "date": "2026-08-01",
+      "person": "p-b",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": false,
+      "shared_id": null,
+      "evidence_kind": "tap-only"
+    },
+    {
+      "id": "activity-0-5",
+      "date": "2026-08-01",
+      "person": "p-c",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "return",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-1-0",
+      "date": "2026-08-02",
+      "person": "p-a",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-1",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-1-1",
+      "date": "2026-08-02",
+      "person": "p-b",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-1-2",
+      "date": "2026-08-02",
+      "person": "p-c",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-1-3",
+      "date": "2026-08-02",
+      "person": "p-a",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-1",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-1-4",
+      "date": "2026-08-02",
+      "person": "p-b",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": false,
+      "shared_id": null,
+      "evidence_kind": "tap-only"
+    },
+    {
+      "id": "activity-1-5",
+      "date": "2026-08-02",
+      "person": "p-c",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "return",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-2-0",
+      "date": "2026-08-03",
+      "person": "p-a",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-2",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-2-1",
+      "date": "2026-08-03",
+      "person": "p-b",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-2-2",
+      "date": "2026-08-03",
+      "person": "p-c",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-2-3",
+      "date": "2026-08-03",
+      "person": "p-a",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-2",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-2-4",
+      "date": "2026-08-03",
+      "person": "p-b",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": false,
+      "shared_id": null,
+      "evidence_kind": "tap-only"
+    },
+    {
+      "id": "activity-2-5",
+      "date": "2026-08-03",
+      "person": "p-c",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "return",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-3-0",
+      "date": "2026-08-04",
+      "person": "p-a",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-3",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-3-1",
+      "date": "2026-08-04",
+      "person": "p-b",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-3-2",
+      "date": "2026-08-04",
+      "person": "p-c",
+      "site": "square",
+      "start": "14:00",
+      "end": "15:00",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-3-3",
+      "date": "2026-08-04",
+      "person": "p-a",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": true,
+      "shared_id": "share-3",
+      "evidence_kind": "supervisor"
+    },
+    {
+      "id": "activity-3-4",
+      "date": "2026-08-04",
+      "person": "p-b",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "guide",
+      "accepted": false,
+      "shared_id": null,
+      "evidence_kind": "tap-only"
+    },
+    {
+      "id": "activity-3-5",
+      "date": "2026-08-04",
+      "person": "p-c",
+      "site": "workshop",
+      "start": "14:30",
+      "end": "15:30",
+      "role": "return",
+      "accepted": true,
+      "shared_id": null,
+      "evidence_kind": "supervisor"
+    }
+  ],
+  "team_confirmations": [
+    {
+      "id": "share-0",
+      "shares": {
+        "square": 0.7,
+        "workshop": 0.3
+      },
+      "leave_at": "15:00",
+      "organizations": [
+        "festival",
+        "school"
+      ]
+    },
+    {
+      "id": "share-1",
+      "shares": {
+        "square": 0.7,
+        "workshop": 0.3
+      },
+      "leave_at": "15:00",
+      "organizations": [
+        "festival",
+        "school"
+      ]
+    },
+    {
+      "id": "share-2",
+      "shares": {
+        "square": 0.7,
+        "workshop": 0.3
+      },
+      "leave_at": "15:00",
+      "organizations": [
+        "festival",
+        "school"
+      ]
+    },
+    {
+      "id": "share-3",
+      "shares": {
+        "square": 0.7,
+        "workshop": 0.3
+      },
+      "leave_at": "15:00",
+      "organizations": [
+        "festival",
+        "school"
+      ]
+    }
+  ],
+  "signed_terms": [
+    {
+      "id": "pact-1",
+      "from_date": "2026-08-01",
+      "to_date": "2026-08-03",
+      "organizations": [
+        "festival",
+        "school"
+      ],
+      "credit_per_hour": 1,
+      "eligible_roles": [
+        "guide"
+      ],
+      "used_credit_policy": "carry_difference"
+    },
+    {
+      "id": "pact-2",
+      "from_date": "2026-08-04",
+      "to_date": "2026-08-09",
+      "organizations": [
+        "festival",
+        "school"
+      ],
+      "credit_per_hour": 0.5,
+      "eligible_roles": [
+        "guide",
+        "return"
+      ],
+      "used_credit_policy": "carry_difference"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "booking-course-a",
+      "credit": "issued-a",
+      "person": "p-a",
+      "consumed": 1.5,
+      "date": "2026-08-06"
+    }
+  ],
+  "issuance": [
+    {
+      "id": "issued-a",
+      "person": "p-a",
+      "pact": "pact-1",
+      "credit": 2.5,
+      "evidence": [
+        "activity-0-0",
+        "activity-0-3",
+        "activity-1-0",
+        "activity-1-3"
+      ],
+      "issued_on": "2026-08-05"
+    },
+    {
+      "id": "issued-b",
+      "person": "p-b",
+      "pact": "pact-1",
+      "credit": 1.0,
+      "evidence": [
+        "activity-0-1"
+      ],
+      "issued_on": "2026-08-05"
+    }
+  ],
+  "handoff_reviews": [
+    {
+      "id": "review-1",
+      "activity": "activity-0-3",
+      "period": "14:30-14:50",
+      "replace_site": "square",
+      "received_on": "2026-08-07"
+    },
+    {
+      "id": "review-2",
+      "activity": "activity-1-3",
+      "period": "15:00-15:30",
+      "replace_site": null,
+      "received_on": "2026-08-08"
+    }
+  ],
+  "priority_policy": {
+    "eligible_roles": [
+      "guide",
+      "return"
+    ],
+    "recent_service_window_days": 14,
+    "tie_fields": [
+      "availability",
+      "last_worked_at",
+      "person"
+    ]
+  }
+}

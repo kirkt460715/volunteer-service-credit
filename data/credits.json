@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "volunteers": [{"id":"person-a","sites":["square","workshop"]},{"id":"person-b","sites":["workshop"]}],
+  "shifts": [{"id":"shift-01","person":"person-a","site":"square","role":"crowd-guide","start":"14:00","end":"15:00","status":"confirmed","shared_group":"team-1"},{"id":"shift-02","person":"person-a","site":"workshop","role":"shared-guide","start":"14:30","end":"15:30","status":"disputed","shared_group":"team-1"},{"id":"shift-03","person":"person-b","site":"workshop","role":"materials-return","start":"15:30","end":"16:00","status":"confirmed"}],
+  "handoffs": [{"id":"handoff-01","from":"person-a","to":"person-b","site":"workshop","at":"15:25","accepted":true},{"id":"handoff-02","from":"person-a","to":"person-b","site":"workshop","at":"15:32","accepted":false}],
+  "agreements": [{"id":"agreement-a","organization":"heritage-group","valid_from":"2026-01-01","valid_to":"2026-12-31","credit":"training-hour"},{"id":"agreement-b","organization":"village-school","valid_from":"2026-04-01","valid_to":"2026-10-31","credit":"priority"}],
+  "credits": [{"id":"credit-01","person":"person-a","amount":1.5,"agreement":"agreement-a","used_for":"course-01","status":"redeemed"},{"id":"credit-02","person":"person-a","amount":0.5,"agreement":"agreement-b","used_for":null,"status":"available"}],
+  "coverage": [{"id":"coverage-01","site":"square","role":"crowd-guide","required":4,"actual":3},{"id":"coverage-02","site":"workshop","role":"shared-guide","required":2,"actual":1}]
+}

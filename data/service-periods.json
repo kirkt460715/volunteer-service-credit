@@ -463,7 +463,8 @@
       "eligible_roles": [
         "guide"
       ],
-      "used_credit_policy": "carry_difference"
+      "used_credit_policy": "carry_difference",
+      "issuer": "festival"
     },
     {
       "id": "pact-2",
@@ -478,7 +479,8 @@
         "guide",
         "return"
       ],
-      "used_credit_policy": "carry_difference"
+      "used_credit_policy": "carry_difference",
+      "issuer": "school"
     }
   ],
   "enrollments": [
@@ -487,7 +489,16 @@
       "credit": "issued-a",
       "person": "p-a",
       "consumed": 1.5,
-      "date": "2026-08-06"
+      "date": "2026-08-06",
+      "application": "training-onboarding-1"
+    },
+    {
+      "id": "booking-course-b",
+      "credit": "issued-c",
+      "person": "p-a",
+      "consumed": 0.5,
+      "date": "2026-08-06",
+      "application": "training-onboarding-1"
     }
   ],
   "issuance": [
@@ -511,6 +522,16 @@
       "credit": 1.0,
       "evidence": [
         "activity-0-1"
+      ],
+      "issued_on": "2026-08-05"
+    },
+    {
+      "id": "issued-c",
+      "person": "p-a",
+      "pact": "pact-2",
+      "credit": 0.5,
+      "evidence": [
+        "activity-3-0"
       ],
       "issued_on": "2026-08-05"
     }
@@ -542,5 +563,327 @@
       "last_worked_at",
       "person"
     ]
+  },
+  "coverage_sample": [
+    {
+      "id": "audit-previous-1-square-guide",
+      "season": "previous",
+      "period": "2026-07-01",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-1-workshop-guide",
+      "season": "previous",
+      "period": "2026-07-01",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.75,
+      "observed_headcount": 1,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-1-workshop-return",
+      "season": "previous",
+      "period": "2026-07-01",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 0,
+      "ref": null
+    },
+    {
+      "id": "audit-current-1-square-guide",
+      "season": "current",
+      "period": "2026-08-01",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-current-1-workshop-guide",
+      "season": "current",
+      "period": "2026-08-01",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.75,
+      "observed_headcount": 1,
+      "ref": "activity-0-3"
+    },
+    {
+      "id": "audit-current-1-workshop-return",
+      "season": "current",
+      "period": "2026-08-01",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 0,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-2-square-guide",
+      "season": "previous",
+      "period": "2026-07-02",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 2,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-2-workshop-guide",
+      "season": "previous",
+      "period": "2026-07-02",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.75,
+      "observed_headcount": 0,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-2-workshop-return",
+      "season": "previous",
+      "period": "2026-07-02",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": false,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-current-2-square-guide",
+      "season": "current",
+      "period": "2026-08-02",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 2,
+      "ref": null
+    },
+    {
+      "id": "audit-current-2-workshop-guide",
+      "season": "current",
+      "period": "2026-08-02",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.75,
+      "observed_headcount": 0,
+      "ref": "activity-1-3"
+    },
+    {
+      "id": "audit-current-2-workshop-return",
+      "season": "current",
+      "period": "2026-08-02",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": false,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-3-square-guide",
+      "season": "previous",
+      "period": "2026-07-03",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 1,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-3-workshop-guide",
+      "season": "previous",
+      "period": "2026-07-03",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": false,
+      "inclusion_probability": 0.75,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-3-workshop-return",
+      "season": "previous",
+      "period": "2026-07-03",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-current-3-square-guide",
+      "season": "current",
+      "period": "2026-08-03",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 1,
+      "ref": null
+    },
+    {
+      "id": "audit-current-3-workshop-guide",
+      "season": "current",
+      "period": "2026-08-03",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": false,
+      "inclusion_probability": 0.75,
+      "observed_headcount": null,
+      "ref": "activity-2-3"
+    },
+    {
+      "id": "audit-current-3-workshop-return",
+      "season": "current",
+      "period": "2026-08-03",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-4-square-guide",
+      "season": "previous",
+      "period": "2026-07-04",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": false,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-4-workshop-guide",
+      "season": "previous",
+      "period": "2026-07-04",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.75,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-previous-4-workshop-return",
+      "season": "previous",
+      "period": "2026-07-04",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 1,
+      "ref": null
+    },
+    {
+      "id": "audit-current-4-square-guide",
+      "season": "current",
+      "period": "2026-08-04",
+      "site": "square",
+      "role": "guide",
+      "slot": "14:00-15:00",
+      "required": 2,
+      "selected": false,
+      "inclusion_probability": 0.5,
+      "observed_headcount": null,
+      "ref": null
+    },
+    {
+      "id": "audit-current-4-workshop-guide",
+      "season": "current",
+      "period": "2026-08-04",
+      "site": "workshop",
+      "role": "guide",
+      "slot": "14:30-15:30",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.75,
+      "observed_headcount": null,
+      "ref": "activity-3-3"
+    },
+    {
+      "id": "audit-current-4-workshop-return",
+      "season": "current",
+      "period": "2026-08-04",
+      "site": "workshop",
+      "role": "return",
+      "slot": "15:00-16:00",
+      "required": 1,
+      "selected": true,
+      "inclusion_probability": 0.5,
+      "observed_headcount": 1,
+      "ref": null
+    }
+  ],
+  "recruitment_policy": {
+    "shortfall_review_threshold": 0.3,
+    "seasons": [
+      "previous",
+      "current"
+    ],
+    "missing": "keep_unresolved"
   }
 }
